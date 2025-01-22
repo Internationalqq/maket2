@@ -75,6 +75,13 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
+  padding: 16px 24px;
+}
+
+.sidebar-footer__buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   padding: 16px 16px 16px 24px;
 }
 
@@ -90,11 +97,8 @@ body {
   cursor: pointer;
 }
 
-.sidebar-footer__buttons {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 16px 16px 16px 24px;
+.sidebar-header__logo {
+  margin-right: auto;
 }
 
 .sidebar-footer__button {
